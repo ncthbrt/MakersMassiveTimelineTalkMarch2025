@@ -1,0 +1,61 @@
+body {
+  background: white;
+  color: #150000;
+}
+
+a {
+  color: #0889d1;
+  text-decoration-skip: ink;
+}
+
+i {
+  color: red;
+}
+
+.slide-container:has(.section-title) {
+  margin: 0 !important;
+  background: black;
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+
+.section-title {
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+}
+
+
+.section-title i {
+  color: orangered;
+}
+
+
+.slide-container:has(.big-image) {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  overflow: hidden;
+}
+
+.big-image {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  object-fit: cover;
+}
+
+
+.takeaway {
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.part {
+  text-decoration: underline;
+}
